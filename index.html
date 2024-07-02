@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--  Dominik Reichman -->
+  <!--  Domino.REI@seznam.cz -->
+  <!--  Dominik R. -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/8ba26cb1dc.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Space Up</title>
+  </head>
+  <body>
+    <!--NAVIGATION SECTION -->
+    <header>
+      <nav class="slide-top-bottom">
+        <div class="top-bar">
+          <div class="mode-switcher">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="navigation-wrapper container">
+          <div class="logo">
+            <a href="index.html">
+              <img src="./images/logo-image.png" alt="logo image"
+            /></a>
+          </div>
+          <ul class="navigation-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Prices</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+            <!-- <i class="fa-solid fa-xmark"></i> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO-SECTION -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-section-wrapper hidden">
+            <h1 class="heading">To infinity and beyond!</h1>
+            <div class="countdown-box">
+              <div class="countdown">
+                <div>
+                  <p class="days">00</p>
+                  <span>Days</span>
+                </div>
+                <div>
+                  <p class="hours">00</p>
+                  <span>Hours</span>
+                </div>
+                <div>
+                  <p class="minutes">00</p>
+                  <span>Minutes</span>
+                </div>
+                <div>
+                  <p class="seconds">00</p>
+                  <span>Seconds</span>
+                </div>
+              </div>
+            </div>
+            <div class="btn">
+              <a href="#form">Join us</a>
+            </div>
+          </div>
+        </div>
+        <div class="arrow-up">
+          <i class="fa-regular fa-circle-up"></i>
+        </div>
+      </section>
+
+      <!--ABOUT-US-SECTION-->
+      <article>
+        <section class="about-us-section hidden">
+          <div class="container">
+            <div class="about-us-box">
+              <h2>Experience a space adventure</h2>
+              <p>
+                Fly with us into space and experience adventures that no one
+                else experiences. Just fill out the form below and pay the
+                <b>$15,000</b>
+                entry fee.
+              </p>
+            </div>
+
+            <!--GALLERY-SECTION-->
+            <div class="gallery-section hidden">
+              <div class="gallery-box">
+                <div class="gallery-img-wrapper">
+                  <img src="./images/gallery-img-1.jpg" alt="astronaut image" />
+                </div>
+                <div class="gallery-img-wrapper">
+                  <img src="./images/gallery-img-2.jpg" alt="planet image" />
+                </div>
+                <div class="gallery-img-wrapper">
+                  <img src="./images/gallery-img-3.jpg" alt="earth image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--FORM SECTION-->
+        <section class="form hidden">
+          <div class="container">
+            <h3>Login form</h3>
+            <form id="form">
+              <div class="input-wrapper">
+                <input type="text" class="full-name" placeholder="Full name" />
+                <p class="notificationName">Enter your fullname</p>
+              </div>
+
+              <div class="input-wrapper">
+                <input type="email" class="email" placeholder="Email" />
+                <p class="notificationEmail">Enter your email</p>
+              </div>
+
+              <div class="input-wrapper">
+                <input
+                  type="password"
+                  class="password"
+                  placeholder="Password"
+                />
+                <p class="notificationPassword">Enter your password</p>
+              </div>
+
+              <div class="input-wrapper">
+                <input
+                  type="password"
+                  class="second-password"
+                  placeholder="Password"
+                />
+                <p class="notificationDiffPassword">Enter your password</p>
+              </div>
+
+              <input type="submit" class="submit" value="Submit" />
+            </form>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!--FOOTER SECTION-->
+    <footer>
+      <div class="copyright">
+        <p>© 2024 <b>Dominik Reichman</b>. Všechna práva vyhrazena.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
